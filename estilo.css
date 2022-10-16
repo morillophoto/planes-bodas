@@ -170,7 +170,7 @@ li{
   
   
   .plan__contenedor{
-    width: 80%;
+    width: 95%;
     height: 100%;
     margin: 50px 0;
     padding: 60px 30px;
@@ -190,8 +190,6 @@ li{
 }
 
 @media screen and (max-width:600px) {
-
-
   
   img{
     height: 78%;
@@ -208,7 +206,7 @@ li{
   
   
   .plan__contenedor{
-    width: 90%;
+    width: 96%;
     height: 100%;
     margin: 0 0 40px 0;
     padding: 60px 30px;
