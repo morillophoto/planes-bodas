@@ -125,41 +125,4 @@ li{
 }
 
  
-@media screen and (min-width:900px) {
 
-main{
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.contenedor{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.plan__contenedor{
-  min-width: 500px;
-  max-width: auto;
-  height: 500px;
-}
-
-.contenedor01{
-  order: 2;
-  /* background: red; */
-  height: 600px;
-}
-
-.contenedor02{
-  order: 1;
-
-}
-
-.contenedor03{
-  order: 3;
-}
-
-
-}
