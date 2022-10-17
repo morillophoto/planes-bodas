@@ -43,7 +43,7 @@ main{
 .contenedor{
   width: 100%;
   margin: 0 auto;
-  padding: calc(3% * 1.5);
+  padding: calc(2% * 1.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,7 +52,7 @@ main{
 
 
 .plan__contenedor{
-  width: 32%;
+  width: 24%;
   height: 100%;
   padding: 60px 30px;
   background: #eee;
@@ -129,12 +129,11 @@ main{
 .plan__lista{
   padding: 40px 0 50px 0;
   font-size: 16px;
+  height: 480px;
 }
 
 
-.contenedor02 > .plan__lista{
-  padding: 70px 0 50px 0;
-}
+
 
 li{
   padding: 10px;
@@ -152,20 +151,23 @@ li{
 
 footer{
   background: rgb(255, 255, 255);
-  width: 100%;.
+  width: 100%;
+  
 
 
 }
 
 footer > p{
+  /* background: rgb(82, 46, 46); */
+
   height: 100%;
   color: rgb(226, 55, 55);
   font-weight: 300;
   font-size: 14px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding: 35px 0 70px 0;
-  text-align: justify;
+  text-align: center;
 
 
 }
@@ -224,7 +226,7 @@ footer > p{
 @media screen and (max-width:600px) {
   
   img{
-    height: 78%;
+    height: 70%;
   }
 
   .contenedor{
