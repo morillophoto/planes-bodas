@@ -45,7 +45,7 @@ main{
   margin: 0 auto;
   padding: calc(2% * 1.1);
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
 
 } 
@@ -53,7 +53,7 @@ main{
 
 .plan__contenedor{
   width: 24%;
-  height: 100%;
+  height: auto;
   padding: 60px 30px;
   background: #eee;
   box-shadow:  3px 3px 8px rgba(0, 0, 0, 0.15);
@@ -63,6 +63,7 @@ main{
 
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   
 
 }
@@ -129,7 +130,8 @@ main{
 .plan__lista{
   padding: 40px 0 50px 0;
   font-size: 16px;
-  height: 480px;
+  height: auto;
+  min-height: 500px;
 }
 
 
@@ -147,6 +149,7 @@ li{
   letter-spacing: -1px;
   line-height: 1;
   font-weight: 800;
+  margin-top: auto;
 }
 
 .footer__container{
@@ -216,6 +219,7 @@ li{
   
     display: flex;
     flex-direction: column;
+
     
   
   }
@@ -231,6 +235,7 @@ li{
 
   .plan__lista{
     height: 100%;
+    min-height: unset;
   }
 
   .footer__icons{
