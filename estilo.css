@@ -218,7 +218,9 @@ footer > p{
   
   }
 
-  
+    .plan__lista{
+    height: 100%;
+  }
 
 
 }
@@ -283,9 +285,10 @@ footer > p{
 
   }
 
-  .plan__lista{
+   .plan__lista{
     padding: 30px 0 50px 0;
     font-size: 14px;
+    height: 100%;
   }
 
 
