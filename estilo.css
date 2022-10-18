@@ -33,13 +33,7 @@ img{
 
 
 
-main{
-  /* background: rgb(239, 56, 56);  */
 
-
-
-
-}
 
 .contenedor{
   width: 100%;
@@ -155,25 +149,49 @@ li{
   margin-top: auto;
 }
 
-.footer__container{
+
+
+.nota__container{
   background: rgb(255, 255, 255);
-  width: 100%;
-  height: 100%;
+  padding: 60px 0 50px 0;
+}
+
+.nota__titulo{
+
+  color: rgb(226, 55, 55);
+  font-weight: 800;
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 
 
 }
 
-.footer__nota{
+
+.nota__texto{
 
 
   height: 10%;
   color: rgb(226, 55, 55);
   font-weight: 300;
   font-size: 14px;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
-  padding: 35px 0 35px 0;
+  padding: 8px 0 0 0;
   text-align: center;
+
+}
+
+.nota__texto > b{
+  font-weight: 800;
+}
+
+.footer__container{
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+
 
 }
 
@@ -318,6 +336,19 @@ li{
     padding: 25px 0 50px 0;
     font-size: 14px;
     height: 100%;
+  }
+
+  .nota__texto{
+
+    text-align: justify;
+  
+  }
+
+  .footer__icons{
+    margin: 35px 3px 50px 3px;
+    height: 40px;
+    padding: 10px 20px;
+  
   }
 
 
