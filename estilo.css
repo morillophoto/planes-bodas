@@ -254,6 +254,12 @@ li{
 
   }
 
+  .nota__texto{
+
+    text-align: justify;
+  
+  }
+
 
   .footer__nota{
 
@@ -338,11 +344,7 @@ li{
     height: 100%;
   }
 
-  .nota__texto{
 
-    text-align: center;
-  
-  }
 
   .footer__icons{
     margin: 35px 3px 50px 3px;
@@ -356,4 +358,3 @@ li{
 
 
 }
-
