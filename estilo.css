@@ -65,6 +65,11 @@ img{
 
 }
 
+.resaltarAlbum{
+  
+  font-weight: 800;
+}
+
 .plan__contenedor::before{
   content: '';
 
